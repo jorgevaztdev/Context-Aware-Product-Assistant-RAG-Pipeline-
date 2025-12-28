@@ -78,7 +78,7 @@ pip install -r requirements.txt
 streamlit run app.py --server.port 8501 --server.headless true
 ```
 
-> Using Ollama? Ensure your server is reachable. The base URL is currently set in `app.py` and defaults to `http://192.168.68.121:11434`. Update it to match your environment.
+> Using Ollama? Ensure your server is reachable. The base URL is currently set in `app.py` and defaults to `http://your_server:11434`. Update it to match your environment.
 
 ## ⚡ Performance & Design Choices
 - **Local embeddings default:** `sentence-transformers/all-MiniLM-L6-v2` for speed and quality on CPU.

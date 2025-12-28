@@ -1,0 +1,17 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+.env/
+
+# Streamlit
+.streamlit/
+streamlit.log
+
+# OS / editor noise
+.DS_Store
+*.swp

@@ -29,11 +29,11 @@ This project implements the standard "AI Stack" for modern generative applicatio
 
 ```mermaid
 graph LR
-    A[User Document] -->|Chunking| B[Text Splitter]
-    B -->|Embedding| C[Vector Store (FAISS)]
-    D[User Question] -->|Similarity Search| C
-    C -->|Retrieved Context| E[LLM Prompt]
-    E -->|Answer| F[Streamlit Chat]
+    A[User Document] -->|Chunking| B[Text Splitter];
+    B -->|Embedding| C[Vector Store];
+    D[User Question] -->|Similarity Search| C;
+    C -->|Retrieved Context| E[LLM Prompt];
+    E -->|Answer| F[Streamlit Chat];
 ```
 
 ```mermaid
